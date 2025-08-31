@@ -23,10 +23,6 @@ chrome.runtime.onMessage.addListener(async (request, sender) => {
   }
 });
 
-
-// =================================================================
-// === ŞABLONDAN KOPYALAMA ===
-// =================================================================
 async function copyTemplateSheet() {
   try {
     const token = await getAuthToken();
@@ -61,9 +57,7 @@ async function copyTemplateSheet() {
   }
 }
 
-// =================================================================
-// === VERİ EKLEME (REFAKTORE EDİLDİ) ===
-// =================================================================
+//  VERİ EKLEME 
 /**
  * ÖNEMLİ DEĞİŞİKLİK: Veri ekleme mantığı basitleştirildi.
  * Artık son satırı bulup, yeni satır ekleyip, sonra o satıra yazmak yerine
@@ -144,3 +138,4 @@ async function getFirstSheetInfo(token, spreadsheetId) {
     sheetName: firstVisibleSheet.properties.title
   };
 }
+
