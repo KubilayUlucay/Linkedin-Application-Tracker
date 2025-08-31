@@ -14,7 +14,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 function scrapeJobDetails() {
   const jobData = {};
 
-  // ÖNCE SENİN SAĞLADIĞIN YENİ VE SPESİFİK SEÇİCİLER,
+  // ÖNCE YENİ VE SPESİFİK SEÇİCİLER,
   // SONRA ESKİ, DAHA GENEL YEDEK SEÇİCİLER KULLANILACAK.
   const selectors = {
     position: [
@@ -23,7 +23,7 @@ function scrapeJobDetails() {
       'h1.t-24'
     ],
     company: [
-      // Senin sağladığın yeni seçiciler (öncelikli)
+      // yeni seçiciler (öncelikli)
       '#main > div > div.scaffold-layout__list-detail-inner.scaffold-layout__list-detail-inner--grow > div.scaffold-layout__detail.overflow-x-hidden.jobs-search__job-details > div > div.jobs-search__job-details--container > div > div.job-view-layout.jobs-details > div:nth-child(1) > div > div:nth-child(1) > div > div.relative.job-details-jobs-unified-top-card__container--two-pane > div > div.display-flex.align-items-center > div.display-flex.align-items-center.flex-1 > div > a',
       'body > div.application-outlet > div.authentication-outlet > div.scaffold-layout.scaffold-layout--breakpoint-xl.scaffold-layout--main-aside.scaffold-layout--reflow.job-view-layout.jobs-details > div > div > main > div.job-view-layout.jobs-details > div:nth-child(1) > div > div:nth-child(1) > div > div > div > div.display-flex.align-items-center > div.display-flex.align-items-center.flex-1 > div > a',
       // Yedek seçiciler
@@ -31,7 +31,7 @@ function scrapeJobDetails() {
       'a.topcard__org-name-link'
     ],
     location: [
-       // Senin sağladığın yeni seçiciler (öncelikli)
+       // yeni seçiciler (öncelikli)
       '#main > div > div.scaffold-layout__list-detail-inner.scaffold-layout__list-detail-inner--grow > div.scaffold-layout__detail.overflow-x-hidden.jobs-search__job-details > div > div.jobs-search__job-details--container > div > div.job-view-layout.jobs-details > div:nth-child(1) > div > div:nth-child(1) > div > div.relative.job-details-jobs-unified-top-card__container--two-pane > div > div.job-details-jobs-unified-top-card__primary-description-container > div > span > span:nth-child(1)',
       'body > div.application-outlet > div.authentication-outlet > div.scaffold-layout.scaffold-layout--breakpoint-xl.scaffold-layout--main-aside.scaffold-layout--reflow.job-view-layout.jobs-details > div > div > main > div.job-view-layout.jobs-details > div:nth-child(1) > div > div:nth-child(1) > div > div > div > div.job-details-jobs-unified-top-card__primary-description-container > div > span > span:nth-child(1)',
       // Yedek seçiciler
@@ -56,4 +56,5 @@ function findText(selectorArray) {
   }
   return null;
 }
+
 
