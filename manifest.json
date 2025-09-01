@@ -1,0 +1,56 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Job Tracker",
+  "version": "5.1",
+  "description": "Scrapes job details from LinkedIn and adds them to a Google Sheet.",
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://sheets.googleapis.com/*",
+    "https://www.googleapis.com/drive/v3/files/*",
+    "*://*.linkedin.com/*",
+    "https://www.googleapis.com/auth/drive"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+        }
+  },
+  
+  "icons": {
+  "16": "images/icon16.png",
+  "48": "images/icon48.png",
+  "128": "images/icon128.png"
+  },
+
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.linkedin.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ],
+  
+  "oauth2": {
+    "client_id": "415062313012-68njh8jihii3bkppmhtjt9li9v995rhl.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/spreadsheets",
+      "https://www.googleapis.com/auth/drive.file",
+      "https://www.googleapis.com/auth/drive"
+    ]
+  }
+  
+  
+}
