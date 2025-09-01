@@ -38,3 +38,8 @@ At the end you will have something like this. You can look at all of these compa
 Column F and G will be empty in your case, because I do not when will they contact with you. So you can manually control the F column. Then if you want to calculate how long the company took to respond you, you can simply use that formula `=F2-D2` and then propagate the formula down with double clicking the green cute little dot on the bottom right of the cell. 
 
 And that's it. Have fun. ig.
+
+***Table itself has only the Turkish version right now, and I am not willing to create new english version, <sub>sorry</sub>***
+
+if you have anything to tell me, just write me. kubiulucay@gmail.com
+If you directly want to contact here is [linkedin](https://www.linkedin.com/in/kubilayulucay/)
