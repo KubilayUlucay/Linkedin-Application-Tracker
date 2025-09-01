@@ -30,4 +30,11 @@ After setting up everything go to the best job application you find to get rejec
 
 <img width="1025" height="448" alt="5" src="https://github.com/user-attachments/assets/220027e9-331a-46ff-9dcb-e28305d55a6a" />
 
-And that's it. Have fun. idk.
+
+At the end you will have something like this. You can look at all of these company and have some bad thoughts maybe, idk. 
+
+<img width="898" height="271" alt="6" src="https://github.com/user-attachments/assets/1e073930-6fad-49c7-b74d-2d3c0e0ce1e8" />
+
+Column F and G will be empty in your case, because I do not when will they contact with you. So you can manually control the F column. Then if you want to calculate how long the company took to respond you, you can simply use that formula `=F2-D2` and then propagate the formula down with double clicking the green cute little dot on the bottom right of the cell. 
+
+And that's it. Have fun. ig.
