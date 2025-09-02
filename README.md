@@ -6,13 +6,15 @@ An extension to automatically log your LinkedIn job applications to a single spr
 
 This is a simple extension I made to show how desperate it is to apply for jobs on LinkedIn, or maybe you just have fun collecting information about your life like me. Just for fun.
 
+### YOU WILL SEE A WARNING AS **"Google hasn't verified this app"** IT IS EXPLAINED WHY YOU WILL ENCOUNTER THAT ERROR IN THE README.
+
 ---
 
 ### Quick Navigation
 
 * [How can I set the extension??](#how-to-set-up)
 * [I know how to set the extension but I do not know how to use it tho!!!](#so-how-to-use-that)
-* [⚠️ A Note on Google's Warning](#️-a-note-on-googles-warning)
+* [⚠️ Google's Warning ⚠️](#️-a-note-on-googles-warning)
 
 ---
 
