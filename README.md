@@ -82,14 +82,16 @@ After creating your new super-duper table for your unemployment journey, the ext
 
 When you first try to create a spreadsheet, Google will show you a **"Google hasn't verified this app"** warning screen. **This is normal and expected.** 
 
-***You see this error because google ask you to verify your app and in order to verify your app you need to pay $5 and create a developer account.***
-
-***I didn't want to pay $5 to create developer account to publish my extension in chrome's extension page, so google is not allowing me to verify that extension is safe.*** 
 
 <img width="1200" height="600" alt="q1" src="https://github.com/user-attachments/assets/e147e355-7dd8-4ffd-9346-5fe6d8951c90" />
 
-**Why does this happen?**
+
+### Why does this happen??? ISN'T THAT EXTENSION SAFE???
 This extension is an independent project and is not published on the official Chrome Web Store. Because it asks for permission to access your Google Drive (to create the sheet), Google automatically shows this warning for any unverified application.
+
+***You see this error because google ask you to verify your app and in order to verify your app you need to pay $5 and create a developer account.***
+
+***I didn't want to pay $5 to create developer account to publish my extension in chrome's extension page, so google is not allowing me to verify that extension is safe.*** 
 
 **How to safely proceed:**
 1.  Click on **`Advanced`**.
