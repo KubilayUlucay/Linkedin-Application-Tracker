@@ -8,9 +8,8 @@ This is a simple extension I made to show how desperate it is to apply for jobs 
 
 ### Quick Navigation
 
-* [How can I set the extension??](https://www.google.com/search?q=%23how-to-set-up)
-
-* [I know how to set the extension but I do not know how to use it tho!!!](https://www.google.com/search?q=%23so-how-to-use-that)
+* [How can I set the extension??](#how-to-set-up)
+* [I know how to set the extension but I do not know how to use it tho!!!](#so-how-to-use-that)
 
 # How to set up?
 
