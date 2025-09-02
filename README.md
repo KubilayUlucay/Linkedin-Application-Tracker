@@ -12,8 +12,11 @@ This is a simple extension I made to show how desperate it is to apply for jobs 
 
 * [How can I set the extension??](#how-to-set-up)
 * [I know how to set the extension but I do not know how to use it tho!!!](#so-how-to-use-that)
+* [⚠️ A Note on Google's Warning](#️-a-note-on-googles-warning)
 
 ---
+
+
 
 # How to set up?
 
@@ -24,11 +27,11 @@ Just follow the steps down below. It's not rocket science.
 1.  Click the green **`< > Code`** button on the top right.
 2.  Click on **`Download ZIP`**.
 
-<img width="1300" height="600" alt="h" src="https://github.com/user-attachments/assets/112c7f60-b359-4ad0-8114-66363a76a9d1" />
+<img width="1684" height="824" alt="h" src="https://github.com/user-attachments/assets/47caad66-253a-40c5-84c7-652e751c4c83" />
 
 3.  Save the zip file anywhere you feel comfortable.
 
-<img width="800" height="400" alt="h2" src="https://github.com/user-attachments/assets/a541d565-aa89-4efc-af46-0f0f1b642be1" />
+<img width="700" height="401" alt="h2" src="https://github.com/user-attachments/assets/2d28adec-cb55-4755-9843-48d75900a4dd" />
 
 > **IMPORTANT:** DO NOT FORGET TO RIGHT-CLICK AND **`EXTRACT ALL`** THE ZIP FILE! OTHERWISE, YOU WON'T BE ABLE TO UPLOAD THE EXTENSION TO YOUR BROWSER!!!!
 
@@ -36,7 +39,7 @@ Just follow the steps down below. It's not rocket science.
 
 4.  Open your Chrome browser and type `chrome://extensions` in the address bar and press Enter. **OR** simply click the puzzle icon on the right side of the search bar and click `Manage extensions`.
 
-<img width="1494" height="284" alt="h3" src="https://github.com/user-attachments/assets/86be0368-75d2-4930-bb27-157a944512d4" />
+<img width="1494" height="284" alt="h3" src="https://github.com/user-attachments/assets/25e17304-7ede-4b4a-b5b9-e4e9ef1424cc" />
 
 5.  Activate the **"Developer mode"** switch in the top-right corner.
 
@@ -72,6 +75,31 @@ If you choose wisely (I mean my template), the extension will ask for Google Dri
 <img alt="Google permission request" src="https://github.com/user-attachments/assets/a519b732-ab21-419d-b80c-453ac94b3137" />
 
 After creating your new super-duper table for your unemployment journey, the extension will automatically save your spreadsheet to its memory. Now you are ready to go.
+
+### ⚠️ A Note on Google's Warning
+
+When you first try to create a spreadsheet, Google will show you a **"Google hasn't verified this app"** warning screen. **This is normal and expected.** 
+
+***You see this error because google ask you to verify your app and in order to verify your app you need to pay $5 and create a developer account.***
+
+***I didn't want to pay $5 to create developer account to publish my extension in chrome's extension page, so google is not allowing me to verify that extension is safe.*** 
+
+<img width="1200" height="600" alt="q1" src="https://github.com/user-attachments/assets/e147e355-7dd8-4ffd-9346-5fe6d8951c90" />
+
+**Why does this happen?**
+This extension is an independent project and is not published on the official Chrome Web Store. Because it asks for permission to access your Google Drive (to create the sheet), Google automatically shows this warning for any unverified application.
+
+**How to safely proceed:**
+1.  Click on **`Advanced`**.
+2.  Click on **`Go to LinkedinScrapper (unsafe)`**.
+
+<img width="700" height="800" alt="q3" src="https://github.com/user-attachments/assets/3608633d-d10e-4808-b86c-c68b43201db2" />
+
+3. Then allow for the access.  
+
+The extension only requests the minimum permissions required to create and write to your job tracking sheet. The code is fully open-source here on GitHub, so you can review it yourself to see that it's safe.
+
+---
 
 Go to the best job application you can find to get rejected from on LinkedIn and click the extension. You will now see two buttons.
 
