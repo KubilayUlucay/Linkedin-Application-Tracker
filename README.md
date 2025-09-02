@@ -99,6 +99,8 @@ This extension is an independent project and is not published on the official Ch
 
 The extension only requests the minimum permissions required to create and write to your job tracking sheet. The code is fully open-source here on GitHub, so you can review it yourself to see that it's safe.
 
+~And without $5 there is no way to prove your app is safe...~ ANYWAY.
+
 ---
 
 Go to the best job application you can find to get rejected from on LinkedIn and click the extension. You will now see two buttons.
