@@ -24,11 +24,11 @@ Just follow the steps down below. It's not rocket science.
 1.  Click the green **`< > Code`** button on the top right.
 2.  Click on **`Download ZIP`**.
 
-    <img alt="Download ZIP button location" src="https://github.com/user-attachments/assets/62c7c420-1fa7-4643-87f5-c0d19bdfa500" />
+<img width="1300" height="600" alt="h" src="https://github.com/user-attachments/assets/112c7f60-b359-4ad0-8114-66363a76a9d1" />
 
 3.  Save the zip file anywhere you feel comfortable.
 
-    <img alt="Saving the ZIP file" src="https://github.com/user-attachments/assets/96e4a03f-4b53-40ba-acfb-6a1e44d13eb2" />
+<img width="800" height="400" alt="h2" src="https://github.com/user-attachments/assets/a541d565-aa89-4efc-af46-0f0f1b642be1" />
 
 > **IMPORTANT:** DO NOT FORGET TO RIGHT-CLICK AND **`EXTRACT ALL`** THE ZIP FILE! OTHERWISE, YOU WON'T BE ABLE TO UPLOAD THE EXTENSION TO YOUR BROWSER!!!!
 
@@ -36,7 +36,7 @@ Just follow the steps down below. It's not rocket science.
 
 4.  Open your Chrome browser and type `chrome://extensions` in the address bar and press Enter. **OR** simply click the puzzle icon on the right side of the search bar and click `Manage extensions`.
 
-    <img alt="Accessing Chrome extensions page" src="https://github.com/user-attachments/assets/0a26b0c3-b679-4180-9e98-623c205d7f8e" />
+<img width="1494" height="284" alt="h3" src="https://github.com/user-attachments/assets/86be0368-75d2-4930-bb27-157a944512d4" />
 
 5.  Activate the **"Developer mode"** switch in the top-right corner.
 
