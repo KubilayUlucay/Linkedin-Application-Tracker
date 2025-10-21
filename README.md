@@ -8,6 +8,10 @@ This is a simple extension I made to show how desperate it is to apply for jobs 
 
 ### YOU WILL SEE A WARNING AS **"Google hasn't verified this app"** IT IS EXPLAINED WHY YOU WILL ENCOUNTER THAT ERROR IN THE README.
 
+#### NEW UPDATE for BRAVE browser, if you use brave, get the branch "fix-auth-prompt" BUT
+You gotta use your own google cloud project for this, actually killing all of the purpose to use it "easily" but I had to make changes because of the browser and had to use my own secret key in background.js, cannot share it lol.
+Still works good in chrome. I believe it doesn't work in edge, but who cares.
+
 ---
 
 ### Quick Navigation
